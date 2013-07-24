@@ -1,0 +1,30 @@
+alias update='sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove -y && sudo apt-get autoclean'
+alias ssh_jenkins='ssh -i ~/.ssh/jenkins.pem ubuntu@192.168.1.151'
+alias trucoin-screen="cd /home/david/work/trucoin/main && screen -dmS trucoin-main && screen -S trucoin-main -X source /home/david/scripts/screen/trucoin_config && screen -S trucoin-main -r"
+
+alias sg='script/generate'
+alias ss='script/server'
+alias sc='script/console'
+alias sp='script/plugin'
+alias rdb='rake db:migrate'
+alias rtu='rake test:units'
+alias rtf='rake test:functionals'
+alias ri='ri -f ansi -T'
+alias r='rails'
+alias gr='grep -ri'
+
+alias gplom="git pull origin master"
+alias gpsom="git push origin master"
+alias gcow='git checkout work'
+alias gcom='git checkout master'
+alias gmw='git merge work'
+alias gmm='git merge master'
+alias gs='git status'
+alias gf='git fetch'                                                                                                                                                      
+alias gfo='git fetch origin' 
+alias ga='git add .'
+alias gc='git commit -v'
+
+alias grep='grep --color '
+alias 'r'='bundle exec rails'
+alias be='bundle exec'
