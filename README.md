@@ -9,7 +9,7 @@ To install:
 __Note:__ My `.bashrc` is encrypted so you won't be able to get my secret environment variables. 
 
 
-### Adding your own bashrc
+### Adding your own encrypted bashrc
 
 Under Linux:
 
