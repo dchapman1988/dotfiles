@@ -1,6 +1,6 @@
 " THE NEXT 3 LINES MUST BE FIRST
-filetype off
-call pathogen#runtime_append_all_bundles()
+execute pathogen#infect()
+syntax on
 filetype plugin indent on
 " ADD YOUR LINES BELOW HERE
 
@@ -62,15 +62,13 @@ set guioptions="agimrLt"
 " Turn off mouse click in gui
 set mouse=""
 
-" use railscasts theme
+" use solarized8 theme
 syntax enable
+set term=gnome-256color
+let g:solarized_use16 = 1
+let g:solarized_termtrans = 1
 set background=dark
-if $COLORTERM == 'gnome-terminal'
-  set term=gnome-256color
-  colorscheme railscasts
-else
-  colorscheme default
-endif
+colorscheme solarized8
 
 " highlight the current line
 set cursorline
