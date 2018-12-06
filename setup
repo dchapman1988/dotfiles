@@ -6,3 +6,4 @@ ln -sf `pwd`/bash/bash_files/prompts/elite ~/.bash_files/prompts/elite
 ln -sf `pwd`/bash/bash_aliases ~/.bash_aliases
 ln -sf `pwd`/vim/vimrc ~/.vimrc
 ln -sf `pwd`/screen/screenrc ~/.screenrc
+ln -sf `pwd`/.vim ~/.vim
